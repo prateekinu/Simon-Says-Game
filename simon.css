@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    background-color: burlywood;
+} 
+/* @media screen and (max-width:500px){
+    body,html{
+        width: 45vh;
+        
+    }
+    
+} */
+.outer-container{
+    width: 65vh;
+    
+    border: 5px solid black;
+    margin: 100px auto;
+}
+.box_container{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    width: 10rem;
+    height: 10rem;
+    border: 3px solid black;
+    border-radius: 20%;
+    margin: 1rem;
+}
+
+@media only screen and (max-width:500px){
+    .outer-container{
+        width: 45vh;
+        border: none;
+        margin: auto;
+        height:72vh;
+    }
+    
+    
+
+}
+@media only screen and (max-width:400px)
+{
+    .box{
+        
+        width: 7rem;
+        height: 7rem;
+    }
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+.purple{
+    background-color: purple;
+}
+.flash{
+    background-color: white;
+}
+.userflash{
+    background-color: #1e19ff;
+}
+.wrongflash{
+    background-color: red;
+}
